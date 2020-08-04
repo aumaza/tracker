@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="icons/actions/code-context.png" />
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Tracker - Home</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="icons/actions/code-context.png"  class="img-reponsive img-rounded"> Tracker</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+            <!-- Button to Open the Modal -->
+	      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal"> Ingresar</button>
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            <!-- Button to Open the Modal -->
+	    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal1">Acerca de Tracker</button>
+            </a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5"><img src="icons/actions/code-context.png"  class="img-reponsive img-rounded"> Tracker</h1>
+        <p class="lead">Herramienta de seguimiento y mantenimiento de aplicaciones para desarrolladores</p>
+        <ul class="list-unstyled">
+          <li>Bienvenido</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+
+<!-- The Modal login-->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Ingrese sus Datos</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      
+         <form action="formlogin.php" method="POST">
+ 
+ <div class="input-group mb-3 input-group-sm">
+     <div class="input-group-prepend">
+       <span class="input-group-text">usuario</span>
+    </div>
+    <input type="text" class="form-control" name="user">
+  </div>
+  <div class="input-group mb-3 input-group-sm">
+     <div class="input-group-prepend">
+       <span class="input-group-text">password</span>
+    </div>
+    <input type="password" class="form-control" name="pass">
+  </div>
+  <button type="submit" class="btn btn-success active btn-sm"><img src="icons/actions/dialog-ok-apply.png"  class="img-reponsive img-rounded"> Aceptar</button>
+  <button type="reset" class="btn btn-primary btn-sm"><img src="icons/actions/draw-eraser.png"  class="img-reponsive img-rounded"> Limpiar</button>
+</form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal"><img src="icons/actions/dialog-close.png"  class="img-reponsive img-rounded"> Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- end modal login -->
+
+<!-- The Modal about-->
+<div class="modal" id="myModal1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Acerca de Tracker</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p>Version 00.1</p>
+        <h3><img src="icons/actions/system-run.png"  class="img-reponsive img-rounded"><strong> Desarrolladores</strong></h3>
+        <p>Augusto Maza</p>
+        <p>Alejandro Glavic</p>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success btn-sm" data-dismiss="modal">Aceptar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- end modal about -->
+
+</body>
+
+</html>
