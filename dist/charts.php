@@ -121,12 +121,10 @@
                         <h1 class="mt-4">Charts</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Charts</li>
-                        </ol>
+                            </ol>
                         <div class="card mb-4">
                             <div class="card-body">
-                                Chart.js is a third party plugin that is used to generate the charts in this template. The charts below have been customized - for further customization options, please visit the official
-                                <a target="_blank" href="https://www.chartjs.org/docs/latest/">Chart.js documentation</a>
+                                Desde aquí podrá ver graficada toda la información propia de la evolución de los proyectos.-
                                 .
                             </div>
                         </div>
@@ -168,11 +166,11 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2020</div>
+                            <div class="text-muted">Copyright &copy; GPL v2</div>
                             <div>
-                                <a href="#">Privacy Policy</a>
+                                <a href="https://deps.slackzone.com.ar/wiki">Política de Privacidad</a>
                                 &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                                <a href="https://deps.slackzone.com.ar/wiki">Términos &amp; Condiciones</a>
                             </div>
                         </div>
                     </div>
